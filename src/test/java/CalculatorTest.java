@@ -9,4 +9,10 @@ public class CalculatorTest {
         calculator = new Calculator();
         assertEquals(calculator.summe(10, 25), 35);
     }
+
+    @Test
+    public void testSubtractionZweiPositiveIsOk() {
+        calculator = new Calculator();
+        assertEquals(calculator.subtraktion(25, 10), 15);
+    }
 }
