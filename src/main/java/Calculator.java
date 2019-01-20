@@ -5,4 +5,7 @@ public class Calculator {
     public int subtraktion(int value1, int value2) {
         return value1 - value2;
     }
+    public int multiplication(int value1, int value2) {
+        return 0;
+    }
 }
