@@ -20,4 +20,10 @@ public class CalculatorTest {
         calculator = new Calculator();
         assertEquals(calculator.multiplication(10, 10), 100);
     }
+
+    @Test
+    public void testDivisionZweiPositiveIsOk() {
+        calculator = new Calculator();
+        assertEquals(calculator.division(4, 2), 2);
+    }
 }
