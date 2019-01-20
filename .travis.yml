@@ -12,6 +12,7 @@ deploy:
   api_key:
     secure: W/VjbUr9OlK/h9wR5LVXiK/pDN61Odlr+xPwJDOAZn+hxvf2Srv68WFzYMnD0H6X5NIrGrxaCXoEthQOxSiWW/Y1DAF46tj5bqkWyLRqP/gpNrOZPR4CtwnAyBfnYs1tBsTNJNodxYREORMiBL9n00lJGr4ZDHvbmiETpw4k7ODG/P/gKvfIjv5LZM57nRbZVy1NEFyKa3aPTumA2LfOWR5k2J058Qu5qq4J/oduyjs9PeTvOWrVnUYSflX2V+YJOcBbsOyuWdN/J0RlORFQqhKte527+lmhXvk7UDIKgoCKK0N1LW8EELegp3Z19nwaGE7wSFQzRffmPqRFHb1XZ1dOYfIj+Rx843cBrIQLF3mVyWPzaPnAFYknI9xtGdFTbjdkpY2rBB5SFYfKpkB0CQZnuI8g9e04TvzeAooiLOF1cYt56ycKCtZ5rc9zF/KcWSVfv2FBiOgHSdxktjleBZ78h641L9JDV6UYKjOAfE7xT0/LvP/DOJWqLYo5ryol5hhg4Kukmq0gCDkl23GJYc2SQYkOUqNxLr9g3karHxuSk87QaBwjXik+Kfx9IJJ9Z8kk8mAvH6rPJPS3JehfOztIhGIyZ3fcYErBFgN8LL+TaXkoq7RtxWbfYhXpVjCLA8dGOn4Bt4SVEBheA2tsR94Qq/CvFrHST/ltBCbnZgU=
   file: "/home/travis/.m2/repository/ch/bbw/MavenCalculator/1.0-SNAPSHOT/MavenCalculator-1.0-SNAPSHOT.jar"
+
     skip_cleanup: true
   on:
     repo: philipp012/MavenCalculator
