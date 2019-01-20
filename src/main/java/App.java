@@ -2,8 +2,8 @@ public class App {
     public static void main(String[] args) {
         Calculator calculator = new Calculator();
 
-        System.out.println("Console Calculator");
-        System.out.println("==================");
+        System.out.println(" Console Calculator");
+        System.out.println("====================");
         System.out.println();
 
         int valueA = 10;
