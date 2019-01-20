@@ -126,9 +126,9 @@ public class CalculatorTest {
         assertEquals(-10, calculator.division(-100, 10), 0);
     }
 
-    @Test(expected = AssertionError.class)
+    @Test(expected = ArithmeticException.class)
     public void testDivisionByZero() {
-        assertEquals(0, calculator.division(10, 0), 0);
+        assertEquals(0, calculator.division(10, 0));
     }
 
     @Test
