@@ -15,4 +15,9 @@ public class CalculatorTest {
         calculator = new Calculator();
         assertEquals(calculator.subtraktion(25, 10), 15);
     }
+    @Test
+    public void testMultiplicationZweiPositiveIsOk() {
+        calculator = new Calculator();
+        assertEquals(calculator.multiplication(10, 10), 100);
+    }
 }
