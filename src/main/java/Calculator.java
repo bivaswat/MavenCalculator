@@ -1,14 +1,14 @@
-public class Calculator {
-    public int summe(int summand1, int summand2) {
-        return summand1 + summand2;
+class Calculator {
+    int summe(int value1, int value2) {
+        return value1 + value2;
     }
-    public int subtraktion(int value1, int value2) {
+    int subtraktion(int value1, int value2) {
         return value1 - value2;
     }
-    public int multiplication(int value1, int value2) {
+    int multiplication(int value1, int value2) {
         return value1 * value2;
     }
-    public int division(int value1, int value2) {
+    int division(int value1, int value2) {
         return value1 / value2;
     }
 }
