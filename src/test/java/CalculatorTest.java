@@ -5,15 +5,20 @@ import static org.junit.Assert.assertEquals;
 
 public class CalculatorTest {
     private Calculator calculator;
-    private Object ArithmeticException;
 
     @Before
     public void initializeCalculator() {
         calculator = new Calculator();
     }
+
     @Test
     public void testSummeZweiPositiveIsOk() {
         assertEquals(calculator.summe(10, 25), 35);
+    }
+
+    @Test(expected = ArithmeticException.class)
+    public void testSummeOverflow() {
+        assertEquals((long) Integer.MAX_VALUE + 1, calculator.summe(Integer.MAX_VALUE, 1));
     }
 
     @Test
