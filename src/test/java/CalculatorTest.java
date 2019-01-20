@@ -35,4 +35,9 @@ public class CalculatorTest {
         assertEquals(calculator.division(10, 0), 0);
     }
 
+    @Test
+    public void testDivisionByZeroNotRaised() throws StackOverflowError {
+        assertEquals(calculator.division(10, 1), 10);
+    }
+
 }
