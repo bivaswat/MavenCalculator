@@ -18,6 +18,10 @@
 <properties>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
+  <sonar.projectKey>pradhan567_MavenCalculator</sonar.projectKey>
+  <sonar.organization>pradhan567</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+  <sonar.login>bf6505d946bc934a37bd0a26ad23cd6683a5a344</sonar.login>
 </properties>
     <build>
         <plugins>
