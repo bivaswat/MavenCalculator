@@ -1,4 +1,4 @@
 FROM nginx
 MAINTAINER Manas
-expose 83
+expose 80
 COPY .*jar /
