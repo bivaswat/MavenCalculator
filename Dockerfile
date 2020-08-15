@@ -1,4 +1,4 @@
 FROM nginx
-MAINTAINER Manas
+MAINTAINER Deep
 expose 83
 COPY .*jar /
