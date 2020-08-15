@@ -1,4 +1,4 @@
 FROM nginx
-MAINTAINER Deep1
+MAINTAINER Deep12
 expose 83
 COPY .*jar /
